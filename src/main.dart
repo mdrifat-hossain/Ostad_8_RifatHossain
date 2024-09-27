@@ -1,6 +1,11 @@
-void main(){
-  int x = 5;
-  print(x);
-  int y = 10;
-  print(y);
+import 'car_class.dart';
+
+void main() {
+
+  Car myCar = Car('Toyota', 'Corolla', 2015);
+
+  print('Brand: ${myCar.brand}');
+  print('Model: ${myCar.model}');
+  print('Year: ${myCar.year}');
+  print('Car Age: ${myCar.carAge()} years');
 }
